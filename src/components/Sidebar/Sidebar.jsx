@@ -24,7 +24,7 @@ const Sidebar = () => {
             <img 
               src="assets/img/user-sidebar-thumb.png" 
               className="hidden dark:block"
-              alt="Brown Reddick" 
+              alt="Bhanu" 
             /> {/* Image for Dark Version */}
             <img 
               src="assets/img/user-sidebar-thumb-light.png" 
