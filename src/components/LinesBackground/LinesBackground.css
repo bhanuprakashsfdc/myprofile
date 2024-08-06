@@ -1,0 +1,50 @@
+/* LinesBackground.css */
+.line-wrapper * {
+    width: 1px;
+    height: 100%;
+    border-right: 1px dashed;
+    border-color: #cbd5e1; /* slate-300 */
+    position: relative;
+  }
+  
+  .line-wrapper *.before {
+    content: '';
+    position: absolute;
+    background-color: #3b82f6; /* theme color */
+    transform: rotate(45deg);
+    left: -4px;
+    width: 8px;
+    height: 8px;
+  }
+  
+  .line1.before {
+    animation: top_bottom 2s infinite;
+  }
+  
+  .line2.before {
+    bottom: 0;
+    animation: bottom_top 2s infinite;
+    animation-delay: 3s;
+  }
+  
+  .line3.before {
+    animation: top_bottom 2s infinite;
+    animation-delay: 3s;
+  }
+  
+  .line4.before {
+    bottom: 0;
+    animation: bottom_top 2s infinite;
+    animation-delay: 2s;
+  }
+  
+  @keyframes top_bottom {
+    0%, 100% { top: 0; }
+    50% { top: 100%; }
+  }
+  
+  @keyframes bottom_top {
+    0%, 100% { bottom: 0; }
+    50% { bottom: 100%; }
+  }
+  

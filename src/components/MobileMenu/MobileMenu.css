@@ -1,0 +1,13 @@
+/* MobileMenu.css */
+.mobile-menu-bar {
+    backdrop-filter: blur(10px);
+  }
+  
+  .hamburger svg .fill-theme {
+    fill: #000;
+  }
+  
+  .dark .hamburger svg .fill-theme {
+    fill: #fff;
+  }
+  
