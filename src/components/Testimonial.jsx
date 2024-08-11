@@ -1,33 +1,8 @@
-// src/components/Testimonial.js
-
 import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
-const testimonials = [
-  {
-    image: 'assets/img/testimonial/author1.png',
-    rating: 5,
-    content: 'Working with Reddick is a game-changer. Their coding expertise and commitment to quality make every project a success.',
-    author: 'Alex Johnson',
-    position: 'Developer'
-  },
-  {
-    image: 'assets/img/testimonial/author2.png',
-    rating: 5,
-    content: 'Reddick exceeds expectations with top-tier coding skills. Reliable, collaborative, and a true asset to any project. Highly recommended',
-    author: 'Mily Martin',
-    position: 'CEO-itTheme'
-  },
-  {
-    image: 'assets/img/testimonial/author3.png',
-    rating: 5,
-    content: 'Reddick delivers excellence in every line of code. Dependable, innovative, and a key player in project success. Outstanding performance.',
-    author: 'Alex Johnson',
-    position: 'Developer'
-  }
-];
+import { TESTIMONIALS } from '../constants/constants'; 
 
 const Testimonial = () => {
   const settings = {
@@ -36,7 +11,7 @@ const Testimonial = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true
+    arrows: true,
   };
 
   return (
@@ -51,13 +26,13 @@ const Testimonial = () => {
             What <span className="font-semibold text-theme">People Say</span>
           </h2>
           <p className="max-w-xl mt-4 md:mt-6 subtitle">
-            I design products that are more than pretty. I make them shippable and usable, tempor non mollit dolor et do aute
+            I design products that are more than pretty. I make them shippable and usable, tempor non mollit dolor et do aute.
           </p>
         </div>
         
         <div className="mt-12 testimonial-slider">
           <Slider {...settings}>
-            {testimonials.map((testimonial, index) => (
+            {TESTIMONIALS.map((testimonial, index) => (
               <div key={index} className="swiper-slide">
                 <div className="text-center slider-inner md:px-5">
                   <div className="image flex-center">

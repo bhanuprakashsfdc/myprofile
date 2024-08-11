@@ -3,31 +3,31 @@ import React from 'react';
 const projects = [
   {
     id: 1,
-    title: 'Design Specialization',
+    title: 'Salesforce Field Service Implementation',
     imgSrc: 'assets/img/portfolio/portfolio-img1.png',
-    link: 'project-single.html',
-    tags: ['Branding'],
+    link: '#',
+    tags: ['Salesforce'],
   },
   {
     id: 2,
-    title: 'Design Specialization',
-    imgSrc: 'assets/img/portfolio/portfolio-img2.png',
-    link: 'project-single.html',
-    tags: ['Branding'],
+    title: 'Salesforce Einstein Analytics aka Tableau CRM',
+    imgSrc: 'assets/img/portfolio/portfolio-img1.png',
+    link: '#',
+    tags: ['Salesforce'],
   },
   {
     id: 3,
-    title: 'Design Specialization',
-    imgSrc: 'assets/img/portfolio/portfolio-img3.png',
-    link: 'project-single.html',
-    tags: ['Branding'],
+    title: 'Web Design Implementation',
+    imgSrc: 'assets/img/portfolio/portfolio-img1.png',
+    link: '#',
+    tags: ['Web Development'],
   },
   {
     id: 4,
-    title: 'Design Specialization',
-    imgSrc: 'assets/img/portfolio/portfolio-img4.png',
-    link: 'project-single.html',
-    tags: ['Branding'],
+    title: 'SEO Implementation',
+    imgSrc: 'assets/img/portfolio/portfolio-img1.png',
+    link: '#',
+    tags: ['SEO'],
   },
 ];
 
@@ -44,14 +44,13 @@ const ProjectsSection = () => {
             Featured <span className="font-semibold text-theme">Projects</span>
           </h2>
           <p className="max-w-xl mt-4 md:mt-6 subtitle">
-            I design products that are more than pretty. I make them shippable and usable, ttempor
-            non mollit dolor et do aute
+            Proven ability to transform business processes and digital experiences through successful Salesforce implementations and engaging website designs.
           </p>
         </div>
 
         <div className="portfolio_wrapper grid sm:grid-cols-2 gap-4 lg:gap-7.5 *:relative *:z-1">
           {projects.map((project) => (
-            <div key={project.id} className="item md:col-span-2 group">
+            <div key={project.id} className="item group">
               <a
                 href={project.link}
                 className="block p-3 overflow-hidden border md:p-4 rounded-xl border-platinum dark:border-greyBlack"
@@ -86,7 +85,7 @@ const ProjectsSection = () => {
 
         <div className="mt-10 text-center more-blogs md:mt-13">
           <a
-            href="all-projects.html"
+            href="#"
             className="inline-flex items-center gap-2 text-[15px] font-medium border border-theme bg-theme text-white py-4.5 px-9 rounded-4xl leading-none transition-all duration-300 hover:bg-themeHover hover:border-themeHover"
           >
             More Projects

@@ -2,23 +2,14 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
-const skillsData = [
-  { src: 'assets/img/skill/figma.svg', alt: 'Figma', name: 'Figma', percent: 90 },
-  { src: 'assets/img/skill/webflow.svg', alt: 'Webflow', name: 'Webflow', percent: 85 },
-  { src: 'assets/img/skill/tailwind.svg', alt: 'TailwindCSS', name: 'Tailwind', percent: 90 },
-  { src: 'assets/img/skill/html.svg', alt: 'HTML5', name: 'HTML5', percent: 95 },
-  { src: 'assets/img/skill/css.svg', alt: 'CSS3', name: 'CSS3', percent: 95 },
-  { src: 'assets/img/skill/js.svg', alt: 'JavaScript', name: 'JavaScript', percent: 75 },
-  { src: 'assets/img/skill/jquery.svg', alt: 'jQuery', name: 'jQuery', percent: 70 },
-];
+import { SECTION_NAMES, TITLES, SUBTITLES, SKILLS_DATA } from '../constants/constants';
 
 const Skills = () => {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
       {
@@ -43,25 +34,26 @@ const Skills = () => {
       <div className="service-section relative px-5 py-8 md:p-8 bg-white dark:bg-nightBlack rounded-2xl lg:p-10 2xl:p-13">
         <div className="inline-flex items-center gap-2 px-4 py-2 text-xs tracking-wide text-black dark:text-white border lg:px-5 section-name border-platinum dark:border-greyBlack200 rounded-4xl">
           <i className="fal fa-graduation-cap text-theme"></i>
-          SKILLS
+          {SECTION_NAMES.SKILLS}
         </div>
         <div className="mb-8 mt-7 md:my-10 section-title">
           <h2 className="title text-[32px] md:text-4xl lg:text-5xl font-extralight text-black dark:text-white leading-1.27">
-            My <span className="font-semibold text-theme">Advantages</span>
+            {TITLES.SKILLS}
           </h2>
           <p className="max-w-xl mt-4 md:mt-6 subtitle">
-            I design products that are more than pretty. I make them shippable and usable, ttempor
-            non mollit dolor et do aute
+            {SUBTITLES.SKILLS}
           </p>
         </div>
 
         <div className="mt-12 skills-slider xl:mt-16">
           <Slider {...settings}>
-            {skillsData.map((skill, index) => (
+            {SKILLS_DATA.map((skill, index) => (
               <div key={index} className="text-center">
-                <div className="icon">
+                {/*
+                 <div className="icon">
                   <img src={skill.src} className="dark:grayscale" alt={skill.alt} />
-                </div>
+                </div>               
+                */}
                 <div className="progressCircle">
                   <div
                     className="relative w-32 h-32 mx-auto circle md:w-40 md:h-40"
@@ -76,7 +68,7 @@ const Skills = () => {
               </div>
             ))}
           </Slider>
-          {/* Slider Controls Start */}
+          {/* Slider Controls Start 
           <div className="skills-slider-navigation flex justify-center items-center gap-2.5 mt-12 md:absolute md:top-16 lg:top-20 md:right-8 lg:right-13">
             <button
               className="transition border rounded-full button-prev w-11 h-11 group border-platinum dark:border-greyBlack flex-center hover:bg-theme hover:border-theme"
@@ -106,6 +98,7 @@ const Skills = () => {
               </svg>
             </button>
           </div>
+          */}
           {/* Slider Controls End */}
         </div>
       </div>
