@@ -26,7 +26,7 @@ const Testimonial = () => {
             What <span className="font-semibold text-theme">People Say</span>
           </h2>
           <p className="max-w-xl mt-4 md:mt-6 subtitle">
-            I design products that are more than pretty. I make them shippable and usable, tempor non mollit dolor et do aute.
+            Let's here few comments from our clients about my services.
           </p>
         </div>
         
@@ -36,7 +36,7 @@ const Testimonial = () => {
               <div key={index} className="swiper-slide">
                 <div className="text-center slider-inner md:px-5">
                   <div className="image flex-center">
-                    <img src={testimonial.image} alt={`Testimonial from ${testimonial.author}`} />
+                   {/* <img src={testimonial.image} alt={`Testimonial from ${testimonial.author}`} /> */} 
                   </div>
                   <div className="mt-6 mb-3 text-center rating text-lightOrange text-sm">
                     {[...Array(testimonial.rating)].map((_, i) => (

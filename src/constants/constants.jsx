@@ -32,7 +32,7 @@ export const GI = "https://github.com/bhanuprakashsfdc";
     { number: '12', label: 'Handled Projects' },
     { number: '05', label: 'Open Source Libraries' },
     { number: '15', label: 'Happy Clients' },
-    { number: '10', label: 'Happy Clients' },
+    { number: '10', label: 'Certifications' },
   ];
   
   export const SERVICE_DETAILS = [
@@ -111,22 +111,22 @@ export const TESTIMONIALS = [
   {
     image: 'assets/img/testimonial/author1.png',
     rating: 5,
-    content: 'Working with Reddick is a game-changer. Their coding expertise and commitment to quality make every project a success.',
-    author: 'Alex Johnson',
-    position: 'Developer',
+    content: 'I was very pleased with Bhanu work. I am already planning on working with him again in the near future.',
+    author: 'Richard',
+    position: 'Ceo & Founder',
   },
   {
     image: 'assets/img/testimonial/author2.png',
     rating: 5,
-    content: 'Reddick exceeds expectations with top-tier coding skills. Reliable, collaborative, and a true asset to any project. Highly recommended.',
-    author: 'Mily Martin',
-    position: 'CEO-itTheme',
+    content: 'Thanks guys, keep up the good work! Wow what great service, I love it! Salesforce experience cloud site implementation is worth much more than I paid. Thank You!',
+    author: 'Barclay C',
+    position: 'Project Manager',
   },
   {
     image: 'assets/img/testimonial/author3.png',
     rating: 5,
-    content: 'Absolutely wonderful! Great job, I will definitely be ordering again! Loyalty management implementation has got everything I need.',
-    author: 'Alex Johnson',
-    position: 'Developer',
+    content: 'Keep up the excellent work. Thanks Salesforce Chat bot implementation!',
+    author: 'Rosaline',
+    position: 'Owner',
   },
 ];

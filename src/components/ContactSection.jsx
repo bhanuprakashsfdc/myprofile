@@ -17,7 +17,7 @@ const ContactSection = () => {
             Contact <span className="font-semibold text-theme">Me.</span>
           </h2>
           <p className="max-w-xl mt-3.5 md:mt-5 subtitle max-w-sectionTitle">
-            I design products that are more than pretty. I make them shippable and usable, tempor non mollit dolor et do aute
+            Feel free to reach out me, I would love to solve problems. 
           </p>
         </div>
 
