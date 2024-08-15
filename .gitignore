@@ -32,6 +32,7 @@ Thumbs.db
 
 # Vite
 .Vite
+.vite
 
 # Vscode 
 .vscode

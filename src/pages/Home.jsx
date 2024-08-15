@@ -10,7 +10,7 @@ import SidebarNav from '../components/SidebarNav'
 import Hero from '../components/Hero'
 import AboutUs from '../components/AboutUs'
 import Services from '../components/Services'
-import Skills from '../components/Skills'
+import Skills from '../components/Skills/Skills'
 import ResumeSection from '../components/ResumeSection'
 import ProjectsSection from '../components/ProjectsSection'
 import BlogSection from '../components/BlogSection'
@@ -33,7 +33,7 @@ const Home = () => {
         <Skills />
         <ResumeSection />
         <ProjectsSection />
-        <BlogSection />
+      {/* <BlogSection /> */}  
         <Testimonial />
         <ContactSection />
         <MapComponent />

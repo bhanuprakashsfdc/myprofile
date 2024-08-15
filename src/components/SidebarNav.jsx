@@ -7,7 +7,7 @@ const SidebarNav = () => {
       {/* Site Logo Start */}
       <div className="flex border rounded-full logo w-15 h-15 border-platinum dark:border-metalBlack flex-center hover:bg-white dark:hover:bg-metalBlack">
         <a href="index.html">
-          <img src="assets/img/site-logo.svg" alt="Minfo" />
+          <img src="assets/img/loader.png" alt="Bhanu Prakash" />
         </a>
       </div>
       {/* Site Logo End */}
