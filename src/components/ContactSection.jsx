@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMapMarkerAlt, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import classNames from 'classnames';
 import { CITY, EMAIL, PHONE } from '../constants/constants';
+import WebtoLead from './WebtoLead/WebtoLead';
 
 const ContactSection = () => {
   return (
@@ -53,7 +54,11 @@ const ContactSection = () => {
               </li>
             </ul>
           </div>
-        </div>
+          <div className="md:col-span-7">
+           <WebtoLead /> 
+           </div>
+        </div >
+
       </div>
     </div>
   );
