@@ -4326,6 +4326,10 @@ html.dark .portfolio_wrapper .info span {
 }
 
 @media (min-width: 1280px) {
+  .limitsidebar{
+    width: 20rem !important;
+  }
+  
   .xl\:fixed {
     position: fixed;
   }

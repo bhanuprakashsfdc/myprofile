@@ -1,0 +1,47 @@
+.cloud-section{
+    background-color: #FFFFFF; 
+    color: black !important;
+  }
+  .text-black{
+    color: black !important;
+  }
+  .clouds-container {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .cloud-item {
+    background-color: #FFFFFF;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s;
+  }
+  
+  .cloud-item i {
+    color: #00BC91; /* Theme color for icons */
+  }
+  
+  .cloud-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .section-name {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  @media (max-width: 768px) {
+    .clouds-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .clouds-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  

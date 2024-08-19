@@ -17,6 +17,8 @@ import BlogSection from '../components/BlogSection'
 import Testimonial from '../components/Testimonial'
 import ContactSection from '../components/ContactSection'
 import MapComponent from '../components/MapComponent'
+import CloudsView from '../components/CloudsView/CloudsView'
+import Certifications from '../components/Certifications/Certifications'
 const Home = () => {
   return (
     <div>
@@ -32,8 +34,10 @@ const Home = () => {
         <Services />
         <Skills />
         <ResumeSection />
-        <ProjectsSection />
-      {/* <BlogSection /> */}  
+        <CloudsView />
+        <Certifications />
+       {/*   <ProjectsSection />
+     <BlogSection /> */}  
         <Testimonial />
         <ContactSection />
         <MapComponent />
