@@ -11,7 +11,7 @@ const Certifications = () => {
             <img
               src={certification.imageSrc}
               alt={certification.altText}
-              className="w-32 h-32 mx-auto mb-4"
+              className="h-32 mx-auto mb-4"
             />
           )}
           <h4 className="text-lg font-semibold">{certification.title}</h4>

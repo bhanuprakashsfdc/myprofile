@@ -148,61 +148,61 @@ export const CERTIFICATIONS = [
   {
     title: "Certified Application Architect",
     dateEarned: "July 4, 2023",
-    imageSrc: "public/assets/img/certifications/application.png", // Update this with the correct image path
+    imageSrc: "/assets/img/certifications/application.png", // Update this with the correct image path
     altText: "Certified Application Architect",
   },
   {
     title: "Certified Data Architect",
     dateEarned: "June 20, 2023",
-    imageSrc: "public/assets/img/certifications/dataarchitect.png", // Update this with the correct image path
+    imageSrc: "/assets/img/certifications/dataarchitect.png", // Update this with the correct image path
     altText: "Certified Data Architect",
   },
   {
     title: "Certified Sharing and Visbility Architect",
     dateEarned: "July 4, 2023",
-    imageSrc: "public/assets/img/certifications/sharing.png", // Update this with the correct image path
+    imageSrc: "/assets/img/certifications/sharing.png", // Update this with the correct image path
     altText: "Certified Sharing and Visbility Architect",
   },
   {
     title: "Certified Platform App Builder",
     dateEarned: "May 22, 2023",
-    imageSrc: "public/assets/img/certifications/appbuilder.png", // Update this with the correct image path
+    imageSrc: "/assets/img/certifications/appbuilder.png", // Update this with the correct image path
     altText: "Certified Platform App Builder",
   },
   {
     title: "Certified Field Service Consultant",
     dateEarned: "January 22, 2023",
-    imageSrc: "public/assets/img/certifications/fsl.png", // Update this with the correct image path
+    imageSrc: "/assets/img/certifications/fsl.png", // Update this with the correct image path
     altText: "Certified Field Service Consultant",
   },
   {
     title: "Certified Platform Developer II",
     dateEarned: "December 13, 2022",
-    imageSrc: "public/assets/img/certifications/pd2.png", // Update this with the correct image path
+    imageSrc: "/assets/img/certifications/pd2.png", // Update this with the correct image path
     altText: "Certified Platform Developer II",
   },
   {
     title: "Certified Service Cloud Consultant",
     dateEarned: "September 24, 2022",
-    imageSrc: "public/assets/img/certifications/servicecloud.png", // Update this with the correct image path
+    imageSrc: "/assets/img/certifications/servicecloud.png", // Update this with the correct image path
     altText: "Certified Service Cloud Consultant",
   },
   {
     title: "Certified Tableau CRM and Einstein Discovery Consultant",
     dateEarned: "August 9, 2020",
-    imageSrc: "public/assets/img/certifications/tableaucrm.png", // Update this with the correct image path
+    imageSrc: "/assets/img/certifications/tableaucrm.png", // Update this with the correct image path
     altText: "Certified Tableau CRM and Einstein Discovery Consultant",
   },
   {
     title: "Certified Platform Developer I",
     dateEarned: "August 1, 2020",
-    imageSrc: "public/assets/img/certifications/pd1.png", // Update this with the correct image path
+    imageSrc: "/assets/img/certifications/pd1.png", // Update this with the correct image path
     altText: "Certified Platform Developer I",
   },
   {
     title: "Certified Administrator",
     dateEarned: "February 18, 2020",
-    imageSrc: "public/assets/img/certifications/sfadmin.png", // Update this with the correct image path
+    imageSrc: "/assets/img/certifications/sfadmin.png", // Update this with the correct image path
     altText: "Certified Administrator",
   },
 ];
