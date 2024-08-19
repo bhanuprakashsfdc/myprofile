@@ -1,0 +1,115 @@
+/* Basic form styling */
+.webtolead-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .webtolead-form .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .webtolead-form .form-group input,
+  .webtolead-form .form-group textarea {
+    padding: 10px;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  .webtolead-form .form-group input:focus,
+  .webtolead-form .form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .webtolead-form .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .webtolead-form .form-control {
+    width: 100%;
+    margin-top: 8px;
+  }
+  
+  .webtolead-form .text-center {
+    text-align: center;
+  }
+  
+  .webtolead-form .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .webtolead-form .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design */
+  @media (min-width: 768px) {
+    .webtolead-form .form-group {
+      flex-direction: row;
+      gap: 10px;
+    }
+  
+    .webtolead-form .form-group input,
+    .webtolead-form .form-group textarea {
+      flex: 1;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .webtolead-form {
+      padding: 30px;
+    }
+  
+    .webtolead-form .form-group {
+      flex-direction: row;
+      gap: 20px;
+    }
+  }
+  
+  /* Adding margin between form sections */
+  .webtolead-form .form-group {
+    margin-bottom: 16px;
+  }
+  
+  .webtolead-form .form-group:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Add a focus effect for the input fields */
+  .webtolead-form input:focus, .webtolead-form textarea:focus {
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Style the placeholder text */
+  .webtolead-form input::placeholder, .webtolead-form textarea::placeholder {
+    color: #999;
+    font-style: italic;
+  }
+  
+  /* Button specific styling */
+  .webtolead-form .btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .webtolead-form .btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  

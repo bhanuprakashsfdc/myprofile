@@ -1,0 +1,30 @@
+/* StyleSwitcher.css */
+.style-switcher {
+    transition: transform 0.3s;
+  }
+  
+  .toggle-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.75rem; /* 15 * 0.25rem */
+    height: 3.75rem;
+  }
+  
+  .theme-select {
+    border-radius: 0 0 0 0.5rem;
+  }
+  
+  .switcher-input button.active {
+    background-color: #f8f9fa; /* flashWhite */
+    color: #000; /* text-black */
+  }
+  
+  .dark .switcher-input button {
+    color: #fff; /* dark:text-white */
+  }
+  
+  .shadow-slate-400 {
+    box-shadow: 0 4px 6px -1px rgba(107, 114, 128, 0.1), 0 2px 4px -1px rgba(107, 114, 128, 0.06); /* slate-400 */
+  }
+  
