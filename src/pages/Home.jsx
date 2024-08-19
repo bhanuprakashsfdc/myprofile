@@ -36,8 +36,8 @@ const Home = () => {
         <ResumeSection />
         <CloudsView />
         <Certifications />
-       {/*   <ProjectsSection />
-     <BlogSection /> */}  
+       {/*   <ProjectsSection /> */} 
+        <BlogSection />  
         <Testimonial />
         <ContactSection />
         <MapComponent />
