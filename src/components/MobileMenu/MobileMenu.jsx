@@ -12,8 +12,8 @@ const MobileMenu = () => {
     <div className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-2 px-3 bg-white/10 mobile-menu-bar sm:px-6 backdrop-blur-md xl:hidden">
       <div className="text-lg font-medium name">
         <a href="index.html" className="flex items-center gap-2 text-black dark:text-white">
-          <img src="assets/img/site-logo.svg" alt="Minfo" />
-          <span>BhanuPrakash</span>
+          <img src="assets/img/logo.png" alt="" />
+          <span></span>
         </a>
       </div>
       {/* Mobile Hamburger Menu Start */}

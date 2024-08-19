@@ -3,7 +3,7 @@ import { FaHome, FaUser, FaBriefcase, FaGraduationCap, FaFileAlt, FaTasks, FaRss
 import { IoMdClose } from 'react-icons/io';
 import { SiInstagram, SiBehance, SiLinkedin, SiDribbble, SiGithub } from 'react-icons/si';
 import { Link } from 'react-router-dom'; // Assuming you're using react-router for navigation
-import siteLogo from '../assets/img/site-logo.svg'; 
+import siteLogo from '../assets/img/logo.png'; 
 
 const MobileMenuSideBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,8 +17,8 @@ const MobileMenuSideBar = () => {
       <div className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between p-2 px-3 bg-white/10 mobile-menu-bar sm:px-6 backdrop-blur-md xl:hidden">
         <div className="text-lg font-medium name">
           <Link to="/" className="flex items-center gap-2 text-black dark:text-white">
-            <img src={siteLogo} alt="Minfo" />
-            <span>Minfo</span>
+            <img src={siteLogo} alt="Bhanu Prakash Sfdc" />
+            <span></span>
           </Link>
         </div>
         {/* Mobile Hamburger Menu Start */}
